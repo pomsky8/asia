@@ -3,10 +3,11 @@
 <head class="bg-violet-900">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ASIA</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="{{ asset('asset/css/home.css') }}">
+    <link rel="icon" href="/assets/pictures/logo.png" type="image/x-icon">
 
     <nav class="bg-violet-400">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -44,8 +45,8 @@
 </header>
 <body>
 
-<div class="mx-auto max-w-7xl py-96 sm:px-6 lg:px-9 bg-violet-300">
-    <div class="text-center font-bold text-6xl font-serif text-violet-900" style="margin-top: -10%;">
+<div class="mx-auto max-w-7xl py-14 sm:px-6 lg:px-9 bg-violet-300 ">
+    <div class="text-center font-bold text-6xl font-serif text-violet-900 " >
         ASIA'S CHOCOLATES
     </div>
 
@@ -53,11 +54,24 @@
     High quality chocolate products offer indulgent delights crafted with precision, <br> ensuring a rich and satisfying experience for chocolate enthusiasts.
     </div>
 
-    <div class="button px-96">
+    <div class="button px-[44%] py-[3%]">
         <input class="btn btn-info bg-violet-600 rounded-lg " href="" type="submit" value="SHOP NOW" >
     </div>
-      
+
+    <div class="font-bold px-[38%] py-[10%] w-[100%]">
+      TRUSTED BY THESE COMPANIES
     </div>
+
+    <div class="toblerone">
+      <img src="/assets/pictures/toblerone.png" width="200" height="200">
+      <img src="/assets/pictures/hershey.png" width="200" height="200" style="margin-left:25%; margin-top:-6.3%;">
+      <img src="/assets/pictures/cudbery.png" width="250" height="250" style="margin-left:50%; margin-top:-8.5%;">
+      <img src="/assets/pictures/milka.png" width="230" height="230" style="margin-left:78%; margin-top:-12%;">
+    </div>
+
+
+      
+</div>
 
 
 
