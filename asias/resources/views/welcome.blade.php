@@ -58,7 +58,7 @@
         <input class="btn btn-info bg-violet-600 rounded-lg " href="" type="submit" value="SHOP NOW" >
     </div>
 
-    <div class="font-bold px-[38%] py-[10%] w-[100%]">
+    <div class="font-bold px-[38%] py-[0%] w-[100%]">
       TRUSTED BY THESE COMPANIES
     </div>
 
