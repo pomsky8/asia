@@ -8,6 +8,8 @@
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="{{ asset('asset/css/home.css') }}">
     <link rel="icon" href="/assets/pictures/logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/113ee80744.js" crossorigin="anonymous"></script>
+
 
     <nav class="bg-violet-400">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -46,11 +48,11 @@
 <body>
 
 <div class="mx-auto max-w-7xl py-14 sm:px-6 lg:px-9 bg-violet-300 ">
-    <div class="text-center font-bold text-6xl font-serif text-violet-900 " >
+    <div class="text-center font-bold text-6xl font-serif text-violet-900 sm:mt-20" >
         ASIA'S CHOCOLATES
     </div>
 
-    <div class="font-medium text-center text-zinc-50 font-thin">
+    <div class="font-medium text-center text-zinc-50 font-thin" >
     High quality chocolate products offer indulgent delights crafted with precision, <br> ensuring a rich and satisfying experience for chocolate enthusiasts.
     </div>
 
@@ -58,7 +60,9 @@
         <input class="btn btn-info bg-violet-600 rounded-lg " href="" type="submit" value="SHOP NOW" >
     </div>
 
-    <div class="font-bold px-[38%] py-[0%] w-[100%]">
+    <i class="fa-brands fa-facebook ml-96" width="100" height="100"></i>
+
+    <div class="font-bold px-[38%] mt-32  w-[100%] text-violet-900">
       TRUSTED BY THESE COMPANIES
     </div>
 
@@ -67,11 +71,10 @@
       <img src="/assets/pictures/hershey.png" width="200" height="200" style="margin-left:25%; margin-top:-6.3%;">
       <img src="/assets/pictures/cudbery.png" width="250" height="250" style="margin-left:50%; margin-top:-8.5%;">
       <img src="/assets/pictures/milka.png" width="230" height="230" style="margin-left:78%; margin-top:-12%;">
-    </div>
-
-
-      
+    </div>   
 </div>
+
+
 
 
 
