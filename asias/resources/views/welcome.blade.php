@@ -169,7 +169,7 @@
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2 text-slate-50">CHOCOLATE BOUQUET</div>
       <p class="text-slate-200 text-base">A chocolate bouquet is a delightful and creative gift idea that combines the elegance of a floral bouquet with the indulgence of chocolates. Instead of traditional flowers, the bouquet features an arrangement of various chocolates, beautifully presented to resemble a floral arrangement.</p>
-      <a href="#" class="btn btn-light">SEE PRODUCTS</a>
+      <a href="#" class="btn btn-light mt-3">SEE PRODUCTS</a>
     </div>
   </div>
   
@@ -178,7 +178,7 @@
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2 text-slate-50">CHOCOLATES</div>
       <p class="text-slate-200 text-base">Chocolate, the epitome of indulgence, tantalizes the taste buds with its rich, velvety texture and complex flavor profile. From the moment it touches the tongue, chocolate unleashes a symphony of sensations that delight the senses and evoke feelings of pure bliss.</p>
-      <a href="#" class="btn btn-light">SEE PRODUCTS</a>
+      <a href="#" class="btn btn-light mt-3">SEE PRODUCTS</a>
     </div>
   </div>
   
@@ -187,7 +187,7 @@
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2 text-slate-50">SNACKS</div>
       <p class="text-slate-200 text-base">Chips, the crispy, savory delights that have captured the hearts and taste buds of millions, offer a tantalizing experience that is unparalleled in its simplicity and satisfaction. From the moment you reach into a bag and feel the satisfying crunch between your fingers, to the explosion of flavor that follows with each bite, chips are a culinary indulgence like no other.</p>
-      <a href="#" class="btn btn-light">SEE PRODUCTS</a>
+      <a href="#" class="btn btn-light mt-3">SEE PRODUCTS</a>
     </div>
   </div>
 </div>
@@ -200,7 +200,7 @@
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2 text-slate-50">VIAND</div>
         <p class="text-slate-200 text-base">Viand, with its delectable flavors and mouthwatering aromas, tantalizes the taste buds and delights the senses. Whether it's a savory stew, a succulent roast, or a flavorful curry, viand offers a culinary experience that is both comforting and satisfying. Each bite is a symphony of flavors, from the rich umami of meat to the vibrant spices and seasonings that infuse every dish. Viand is more than just a meal</p>
-        <a href="#" class="btn btn-light">SEE PRODUCTS</a>
+        <a href="#" class="btn btn-light mt-3">SEE PRODUCTS</a>
       </div>
     </div>
     
@@ -209,7 +209,7 @@
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2 text-slate-50">DRINKS</div>
         <p class="text-slate-200 text-base">Drinks, whether hot or cold, alcoholic or non-alcoholic, are a refreshing and essential part of life's pleasures. From the comforting warmth of a steaming cup of coffee to the crisp chill of a refreshing glass of iced lemonade, drinks offer a sensory experience that invigorates the body and soothes the soul. </p>
-        <a href="#" class="btn btn-light">SEE PRODUCTS</a>
+        <a href="#" class="btn btn-light mt-3">SEE PRODUCTS</a>
       </div>
     </div>
     
@@ -218,7 +218,7 @@
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2 text-slate-50">ALCOHOL</div>
         <p class="text-slate-200 text-base">Alcohol, in its various forms, is a widely consumed beverage known for its ability to induce relaxation, socialization, and celebration. From the complex flavors of fine wine and the boldness of spirits to the refreshing effervescence of beer, alcohol offers a diverse range of options to suit every taste and occasion.</p>
-        <a href="#" class="btn btn-light">SEE PRODUCTS</a>
+        <a href="#" class="btn btn-light mt-3">SEE PRODUCTS</a>
       </div>
     </div>
   </div>
