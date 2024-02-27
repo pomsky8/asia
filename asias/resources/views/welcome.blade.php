@@ -12,7 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 
 
-    <nav class="bg-indigo-800">
+    <nav class=" bg-gradient-to-b from-indigo-200 to-indigo-400">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-16 items-center justify-between">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden ">
@@ -27,15 +27,15 @@
 
       <div class="flex flex-5 items-center justify-center sm:items-stretch sm:justify-center">
         <div class="flex flex-shrink-0 items-center">
-          <img class="h-8 w-auto justify-start" src="/assets/pictures/logo.png"><p class="text-slate-100">ASIA'S CHOCOLATES</p>
+          <img class="h-8 w-auto justify-start" src="/assets/pictures/logo.png"><p class="text-purple-700">ASIA'S CHOCOLATES</p>
         </div>
 
         <div class="hidden sm:ml-6 sm:block ">
           <div class="flex space-x-4 ">
             <a href="#" class="bg-violet-200 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">HOME</a>
-            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" >PRODUCTS</a>
-            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">RESERVATIONS</a>
-            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">ABOUT US</a>
+            <a href="#" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" >PRODUCTS</a>
+            <a href="#" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">RESERVATIONS</a>
+            <a href="#" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">ABOUT US</a>
           </div>
 
         </div>
@@ -50,7 +50,7 @@
 
 <body>
 
-<div class="mx-auto max-w-7xl py-14 sm:px-6 lg:px-9 wave bg-gradient-to-l from-indigo-400 to-violet-500">
+<div class="mx-auto max-w-7xl py-14 sm:px-6 lg:px-9 wave bg-gradient-to-b from-indigo-400 to-violet-500">
     <div class="text-center font-bold text-6xl font-serif text-slate-200 sm:mt-20" >
         ASIA'S CHOCOLATES
     </div>
@@ -117,7 +117,7 @@
 
 <!----------------------------------second container------------------------------>
 
-<div class="mx-auto max-w-7xl pb-9 sm:px-6 lg:px-9 bg-indigo-200">
+<div class="mx-auto max-w-7xl pb-9 sm:px-6 lg:px-9 bg-violet-600">
 
   <div class="text-4xl font-bold py-12 text-center text-indigo-900 font-serif">
     <p>SERVICES</p>
@@ -155,9 +155,9 @@
 </div>
 
 
-<!--------------------------------------third padding-------------------------->
+<!--------------------------------------products-------------------------->
 
-<div class="third py-10 font-serif wave bg-gradient-to-l from-indigo-400 to-violet-500">
+<div class="third py-10 font-serif wave bg-gradient-to-b to-violet-100 from-violet-600">
 
   <div class="text1 text-4xl font-bold py-12 text-center text-violet-100 underline">
     <p>PRODUCTS</p>
