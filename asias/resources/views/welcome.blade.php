@@ -12,7 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 
 
-    <nav class=" bg-gradient-to-b from-indigo-200 to-indigo-400">
+    <nav class=" bg-gradient-to-b from-indigo-300 to-indigo-400">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-16 items-center justify-between">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden ">
@@ -35,8 +35,11 @@
             <a href="#" class="bg-violet-200 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">HOME</a>
             <a href="#" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" >PRODUCTS</a>
             <a href="#" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">RESERVATIONS</a>
-            <a href="#" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">ABOUT US</a>
+            <a href="about.blade.php" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">ABOUT US</a>
+            
+            <div class="flex items-end "><i class="fa-solid fa-cart-shopping ml-[500px] text-2xl text-slate-50"></i></div>
           </div>
+
 
         </div>
       </div>
@@ -71,19 +74,19 @@
   <div class="flex items-center"> 
     <div class="icons ml-10">
       <a href="#">
-        <i class="fa-brands fa-facebook ml-96 width=100 fa-3x" ></i>
+        <i class="fa-brands fa-facebook ml-96 width=100 fa-3x text-slate-100" ></i>
       </a>
 
       <a href="#">
-        <i class="fa-brands fa-facebook-messenger ml-10 fa-3x"></i>
+        <i class="fa-brands fa-facebook-messenger ml-10 fa-3x text-blue-700"></i>
       </a>
 
       <a href="#">
-        <i class="fa-brands fa-instagram ml-10 fa-3x"></i>
+        <i class="fa-brands fa-instagram ml-10 fa-3x text-orange-500"></i>
       </a>
 
       <a href="#">
-        <i class="fa-brands fa-tiktok ml-10 fa-3x"></i>
+        <i class="fa-brands fa-tiktok ml-10 fa-3x text-cyan-400"></i>
       </a>
     </div>
   </div> 
@@ -117,7 +120,7 @@
 
 <!----------------------------------second container------------------------------>
 
-<div class="mx-auto max-w-7xl pb-9 sm:px-6 lg:px-9 bg-violet-600">
+<div class="mx-auto max-w-7xl pb-9 sm:px-6 lg:px-9 bg-indigo-200">
 
   <div class="text-4xl font-bold py-12 text-center text-indigo-900 font-serif">
     <p>SERVICES</p>
@@ -157,7 +160,7 @@
 
 <!--------------------------------------products-------------------------->
 
-<div class="third py-10 font-serif wave bg-gradient-to-b to-violet-100 from-violet-600">
+<div class="third py-10 font-serif bg-gradient-to-b from-indigo-400 to-indigo-500">
 
   <div class="text1 text-4xl font-bold py-12 text-center text-violet-100 underline">
     <p>PRODUCTS</p>
@@ -225,16 +228,16 @@
 
 </div>
 
-<!---------------------------------------fourth pad---------------------------------------->
+<!---------------------------------------footer---------------------------------------->
 
 
 <div class="mx-auto max-w-7xl pb-3 sm:px-6 lg:px-9 bg-indigo-200">
 
 <div class="container mx-auto py-12">
-  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 bg-white shadow-md rounded-lg">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 bg-indigo-500 shadow-md rounded-lg">
     <div class="p-6">
-      <h2 class="text-2xl font-semibold text-gray-800">LOCATION</h2>
-      <p class="mt-4 text-gray-600">Laungcupang Dumarais Rd, La Paz, Tarlac, Philippines</p>
+      <h2 class="text-2xl font-semibold text-slate-50">LOCATION</h2>
+      <p class="mt-4 text-slate-50">Laungcupang Dumarais Rd, La Paz, Tarlac, Philippines</p>
       <div class="container mx-auto p-6"></div>
 
 
@@ -264,6 +267,46 @@
   </footer>
 
 
+
+  <!-----------------------back to top script----------------------------->
+
+
+  <style>
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            color: #7F00FF;
+            padding: 1rem;
+            border-radius: 40%;
+            display: none;
+            transition: opacity 0.2s;
+            z-index: 999;
+        }
+
+
+    </style>
+
+
+    <button onclick="scrollToTop()" class="back-to-top text-2xl" id="back-to-top-btn"><i class="fa-solid fa-up-long"></i></button>
+
+    <script>
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            var btn = document.getElementById("back-to-top-btn");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        }
+
+        function scrollToTop() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
 
 
 

@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome.blade.php', function () {
     return view('welcome');
+});
+
+Route::get('/about.blade.php', function () {
+    return view('about');
 });
