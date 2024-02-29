@@ -26,8 +26,8 @@
       </div>
 
       <div class="flex flex-5 items-center justify-center sm:items-stretch sm:justify-center">
-        <div class="flex flex-shrink-0 items-center">
-          <img class="h-8 w-auto justify-start" src="/assets/pictures/logo.png"><p class="text-purple-700">ASIA'S CHOCOLATES</p>
+      <div class="flex flex-shrink-0 items-center">
+          <img class="h-8 w-auto justify-start" src="/assets/pictures/logo.png" ><p class="text-purple-700"><a href="welcome.blade.php">ASIA'S CHOCOLATE & SNACKS </a></p>
         </div>
 
         <div class="hidden sm:ml-6 sm:block ">
@@ -45,13 +45,15 @@
                 <li><a class="dropdown-item" href="chocolate.blade.php">CHOCOLATES</a></li>
                 <li><a class="dropdown-item" href="snacks.blade.php">SNACKS</a></li>
                 <li><a class="dropdown-item" href="viands.blade.php">VIANDS</a></li>
-                <li><a class="dropdown-item text-purple-700 rounded-md px-3 py-2 text-sm font-medium" href="product.blade.php">See alll...</a></li>
+                <li><a class="dropdown-item" href="drinks.blade.php">DRINKS</a></li>
+                <li><a class="dropdown-item" href="alcohol.blade.php">ALCOHOL</a></li>
+                <li><a class="dropdown-item text-purple-700 rounded-md px-3 py-2 text-sm font-medium" href="product.blade.php">See all...</a></li>
               </ul>
             </div>
 
 
 
-            <a href="#" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">RESERVATIONS</a>
+            <a href="reviews.blade.php" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">REVIEWS</a>
 
             <a href="about.blade.php" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">ABOUT US</a>
             
@@ -72,7 +74,7 @@
 <body class="bg-indigo-300">
 
 <div class="max-w-5xl mx-auto mt-10">
-        <h1 class="text-2xl font-bold mb-4 text-left">CHOCOLATE BOUQUET</h1>
+        <h1 class="text-2xl font-bold mb-4 text-left text-white">CHOCOLATE BOUQUET</h1>
         
         <!-- Product List -->
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">

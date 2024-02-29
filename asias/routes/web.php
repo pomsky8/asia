@@ -44,3 +44,15 @@ Route::get('/snacks.blade.php', function () {
 Route::get('/viands.blade.php', function () {
     return view('viands');
 });
+
+Route::get('/drinks.blade.php', function () {
+    return view('drinks');
+});
+
+Route::get('/alcohol.blade.php', function () {
+    return view('alcohol');
+});
+
+Route::get('/reviews.blade.php', function () {
+    return view('reviews');
+});

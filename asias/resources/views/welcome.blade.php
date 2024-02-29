@@ -27,7 +27,7 @@
 
       <div class="flex flex-5 items-center justify-center sm:items-stretch sm:justify-center">
         <div class="flex flex-shrink-0 items-center">
-          <img class="h-8 w-auto justify-start" src="/assets/pictures/logo.png"><p class="text-purple-700">ASIA'S CHOCOLATES</p>
+          <img class="h-8 w-auto justify-start" src="/assets/pictures/logo.png"><p class="text-purple-700"><a href="welcome.blade.php">ASIA'S CHOCOLATE & SNACKS </a></p>
         </div>
 
         <div class="hidden sm:ml-6 sm:block ">
@@ -45,11 +45,13 @@
                 <li><a class="dropdown-item" href="chocolate.blade.php">CHOCOLATES</a></li>
                 <li><a class="dropdown-item" href="snacks.blade.php">SNACKS</a></li>
                 <li><a class="dropdown-item" href="viands.blade.php">VIANDS</a></li>
-                <li><a class="dropdown-item text-purple-700 rounded-md px-3 py-2 text-sm font-medium" href="product.blade.php">See alll...</a></li>
+                <li><a class="dropdown-item" href="drinks.blade.php">DRINKS</a></li>
+                <li><a class="dropdown-item" href="alcohol.blade.php">ALCOHOL</a></li>
+                <li><a class="dropdown-item text-purple-700 rounded-md px-3 py-2 text-sm font-medium" href="product.blade.php">See all...</a></li>
               </ul>
             </div>
 
-            <a href="#" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">RESERVATIONS</a>
+            <a href="reviews.blade.php" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">REVIEWS</a>
 
             <a href="about.blade.php" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">ABOUT US</a>
             
@@ -79,7 +81,7 @@
     </div>
 
     <div class="button px-[44%] py-[3%]">
-      <a href="#">
+      <a href="product.blade.php">
         <input class="btn btn-info bg-violet-600 rounded-lg "type="submit" value="SHOP NOW" >
       </a>
     </div>
@@ -89,11 +91,11 @@
 
   <div class="flex items-center"> 
     <div class="icons ml-10">
-      <a href="#">
+      <a href="https://www.facebook.com/Asiaschocolatesandsnacks" target="_blank">
         <i class="fa-brands fa-facebook ml-96 width=100 fa-3x text-slate-100" ></i>
       </a>
 
-      <a href="#">
+      <a href="https://www.facebook.com/Asiaschocolatesandsnacks" target="_blank">
         <i class="fa-brands fa-facebook-messenger ml-10 fa-3x text-blue-700"></i>
       </a>
 
@@ -138,7 +140,7 @@
 
 <div class="mx-auto max-w-7xl pb-9 sm:px-6 lg:px-9 bg-indigo-200">
 
-  <div class="text-4xl font-bold py-12 text-center text-indigo-900 font-serif">
+  <div class="text-4xl font-bold py-12 text-center text-white font-serif">
     <p>SERVICES</p>
   </div>
 
@@ -151,13 +153,13 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="/assets/pictures/c2.jpg" class="d-block w-100" alt="">
+          <img src="/assets/pictures/c2.jpg" class="d-block w-90" alt="">
         </div>
         <div class="carousel-item">
-          <img src="/assets/pictures/c1.jpg" class="d-block w-100" alt="">
+          <img src="/assets/pictures/c1.jpg" class="d-block w-90" alt="">
         </div>
         <div class="carousel-item">
-          <img src="/assets/pictures/c3.jpg" class="d-block w-100 h-1/2" alt="">
+          <img src="/assets/pictures/c3.jpg" class="d-block w-90 h-1/2" alt="">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -178,7 +180,7 @@
 
 <div class="third py-10 font-serif bg-gradient-to-b from-indigo-400 to-indigo-500">
 
-  <div class="text1 text-4xl font-bold py-12 text-center text-violet-100 underline">
+  <div class="text1 text-4xl font-bold py-12 text-center text-violet-100">
     <p>PRODUCTS</p>
   </div>
 
@@ -188,7 +190,7 @@
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2 text-slate-50">CHOCOLATE BOUQUET</div>
       <p class="text-slate-200 text-base">A chocolate bouquet is a delightful and creative gift idea that combines the elegance of a floral bouquet with the indulgence of chocolates. Instead of traditional flowers, the bouquet features an arrangement of various chocolates, beautifully presented to resemble a floral arrangement.</p>
-      <a href="#" class="btn btn-light mt-3">SEE PRODUCTS</a>
+      <a href="chocolatebouqet.blade.php" class="btn btn-light mt-3">SEE PRODUCTS</a>
     </div>
   </div>
   
@@ -197,7 +199,7 @@
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2 text-slate-50">CHOCOLATES</div>
       <p class="text-slate-200 text-base">Chocolate, the epitome of indulgence, tantalizes the taste buds with its rich, velvety texture and complex flavor profile. From the moment it touches the tongue, chocolate unleashes a symphony of sensations that delight the senses and evoke feelings of pure bliss.</p>
-      <a href="#" class="btn btn-light mt-3">SEE PRODUCTS</a>
+      <a href="chocolate.blade.php" class="btn btn-light mt-3">SEE PRODUCTS</a>
     </div>
   </div>
   
@@ -206,7 +208,7 @@
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2 text-slate-50">SNACKS</div>
       <p class="text-slate-200 text-base">Chips, the crispy, savory delights that have captured the hearts and taste buds of millions, offer a tantalizing experience that is unparalleled in its simplicity and satisfaction. From the moment you reach into a bag and feel the satisfying crunch between your fingers, to the explosion of flavor that follows with each bite, chips are a culinary indulgence like no other.</p>
-      <a href="#" class="btn btn-light mt-3">SEE PRODUCTS</a>
+      <a href="snacks.blade.php" class="btn btn-light mt-3">SEE PRODUCTS</a>
     </div>
   </div>
 </div>
@@ -219,7 +221,7 @@
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2 text-slate-50">VIAND</div>
         <p class="text-slate-200 text-base">Viand, with its delectable flavors and mouthwatering aromas, tantalizes the taste buds and delights the senses. Whether it's a savory stew, a succulent roast, or a flavorful curry, viand offers a culinary experience that is both comforting and satisfying. Each bite is a symphony of flavors, from the rich umami of meat to the vibrant spices and seasonings that infuse every dish. Viand is more than just a meal</p>
-        <a href="#" class="btn btn-light mt-3">SEE PRODUCTS</a>
+        <a href="viands.blade.php" class="btn btn-light mt-3">SEE PRODUCTS</a>
       </div>
     </div>
     
@@ -228,7 +230,7 @@
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2 text-slate-50">DRINKS</div>
         <p class="text-slate-200 text-base">Drinks, whether hot or cold, alcoholic or non-alcoholic, are a refreshing and essential part of life's pleasures. From the comforting warmth of a steaming cup of coffee to the crisp chill of a refreshing glass of iced lemonade, drinks offer a sensory experience that invigorates the body and soothes the soul. </p>
-        <a href="#" class="btn btn-light mt-3">SEE PRODUCTS</a>
+        <a href="drinks.blade.php" class="btn btn-light mt-3">SEE PRODUCTS</a>
       </div>
     </div>
     
@@ -237,7 +239,7 @@
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2 text-slate-50">ALCOHOL</div>
         <p class="text-slate-200 text-base">Alcohol, in its various forms, is a widely consumed beverage known for its ability to induce relaxation, socialization, and celebration. From the complex flavors of fine wine and the boldness of spirits to the refreshing effervescence of beer, alcohol offers a diverse range of options to suit every taste and occasion.</p>
-        <a href="#" class="btn btn-light mt-3">SEE PRODUCTS</a>
+        <a href="alcohol.blade.php" class="btn btn-light mt-3">SEE PRODUCTS</a>
       </div>
     </div>
   </div>
@@ -272,10 +274,10 @@
 <footer class="bg-indigo-500 py-6 ">
     <div class="container mx-auto px-4">
       <div class="flex flex-col md:flex-row md:justify-between">
-        <div class="text-white mb-4 md:mb-0">ASIA's CHOCOLATE & SNACKS</div>
+        <div class="text-white mb-4 md:mb-0"><a href="welcome.blade.php">ASIA'S CHOCOLATE & SNACKS </a></div>
         <div class="flex">
-          <a href="#" class="text-slate-50 hover:text-violet-900 mr-4">About</a>
-          <a href="#" class="text-slate-50 hover:text-violet-900 mr-4">Contact</a>
+          <a href="about.blade.php" class="text-slate-50 hover:text-violet-900 mr-4">About</a>
+          <a href="about.blade.php" class="text-slate-50 hover:text-violet-900 mr-4">Contact</a>
         </div>
         
       </div>

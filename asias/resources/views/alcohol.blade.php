@@ -74,7 +74,7 @@
 <body class="bg-indigo-300">
 
 <div class="max-w-5xl mx-auto mt-10">
-        <h1 class="text-2xl font-bold mb-4 text-left text-white">SNACKS</h1>
+        <h1 class="text-2xl font-bold mb-4 text-left text-white">ALCOHOL</h1>
         
         <!-- Product List -->
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">

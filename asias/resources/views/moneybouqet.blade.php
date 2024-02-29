@@ -26,8 +26,8 @@
       </div>
 
       <div class="flex flex-5 items-center justify-center sm:items-stretch sm:justify-center">
-        <div class="flex flex-shrink-0 items-center">
-          <img class="h-8 w-auto justify-start" src="/assets/pictures/logo.png"><p class="text-purple-700">ASIA'S CHOCOLATES</p>
+      <div class="flex flex-shrink-0 items-center">
+          <img class="h-8 w-auto justify-start" src="/assets/pictures/logo.png" ><p class="text-purple-700"><a href="welcome.blade.php">ASIA'S CHOCOLATE & SNACKS </a></p>
         </div>
 
         <div class="hidden sm:ml-6 sm:block ">
@@ -45,13 +45,15 @@
                 <li><a class="dropdown-item" href="chocolate.blade.php">CHOCOLATES</a></li>
                 <li><a class="dropdown-item" href="snacks.blade.php">SNACKS</a></li>
                 <li><a class="dropdown-item" href="viands.blade.php">VIANDS</a></li>
-                <li><a class="dropdown-item text-purple-700 rounded-md px-3 py-2 text-sm font-medium" href="product.blade.php">See alll...</a></li>
+                <li><a class="dropdown-item" href="drinks.blade.php">DRINKS</a></li>
+                <li><a class="dropdown-item" href="alcohol.blade.php">ALCOHOL</a></li>
+                <li><a class="dropdown-item text-purple-700 rounded-md px-3 py-2 text-sm font-medium" href="product.blade.php">See all...</a></li>
               </ul>
             </div>
 
 
 
-            <a href="#" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">RESERVATIONS</a>
+            <a href="reviews.blade.php" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">REVIEWS</a>
 
             <a href="about.blade.php" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">ABOUT US</a>
             
@@ -72,7 +74,7 @@
 <body class="bg-indigo-300">
 
 <div class="max-w-5xl mx-auto mt-10">
-        <h1 class="text-2xl font-bold mb-4 text-left">MONEY BOUQUET</h1>
+        <h1 class="text-2xl font-bold mb-4 text-left text-white">MONEY BOUQUET</h1>
         
         <!-- Product List -->
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
@@ -80,7 +82,7 @@
 
            
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product1.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4">
+                <img src="/assets/pictures/p1.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg">
                 <h2 class="text-lg font-semibold">Product 1</h2>
                 <p class="text-gray-600">Description of Product 1</p>
                 <p class="text-gray-800 font-semibold mt-2">$19.99</p>
@@ -93,7 +95,7 @@
             </div>
             
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product2.jpg" alt="Product 2" class="w-full h-48 object-cover mb-4">
+                <img src="/assets/pictures/p2.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg">
                 <h2 class="text-lg font-semibold">Product 2</h2>
                 <p class="text-gray-600">Description of Product 2</p>
                 <p class="text-gray-800 font-semibold mt-2">$29.99</p>
@@ -106,7 +108,7 @@
             </div>
           
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product3.jpg" alt="Product 3" class="w-full h-48 object-cover mb-4">
+                <img src="/assets/pictures/p3.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg">
                 <h2 class="text-lg font-semibold">Product 3</h2>
                 <p class="text-gray-600">Description of Product 3</p>
                 <p class="text-gray-800 font-semibold mt-2">$39.99</p>
@@ -119,7 +121,7 @@
             </div>
        
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product3.jpg" alt="Product 3" class="w-full h-48 object-cover mb-4">
+                <img src="/assets/pictures/p4.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg">
                 <h2 class="text-lg font-semibold">Product 3</h2>
                 <p class="text-gray-600">Description of Product 3</p>
                 <p class="text-gray-800 font-semibold mt-2">$39.99</p>
@@ -132,7 +134,7 @@
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product3.jpg" alt="Product 3" class="w-full h-48 object-cover mb-4">
+                <img src="/assets/pictures/p5.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg">
                 <h2 class="text-lg font-semibold">Product 3</h2>
                 <p class="text-gray-600">Description of Product 3</p>
                 <p class="text-gray-800 font-semibold mt-2">$39.99</p>
@@ -145,7 +147,7 @@
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product3.jpg" alt="Product 3" class="w-full h-48 object-cover mb-4">
+                <img src="/assets/pictures/p6.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg">
                 <h2 class="text-lg font-semibold">Product 3</h2>
                 <p class="text-gray-600">Description of Product 3</p>
                 <p class="text-gray-800 font-semibold mt-2">$39.99</p>
@@ -158,7 +160,7 @@
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product3.jpg" alt="Product 3" class="w-full h-48 object-cover mb-4">
+                <img src="/assets/pictures/p7.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg">
                 <h2 class="text-lg font-semibold">Product 3</h2>
                 <p class="text-gray-600">Description of Product 3</p>
                 <p class="text-gray-800 font-semibold mt-2">$39.99</p>
@@ -171,7 +173,7 @@
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product3.jpg" alt="Product 3" class="w-full h-48 object-cover mb-4">
+                <img src="/assets/pictures/p8.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg">
                 <h2 class="text-lg font-semibold">Product 3</h2>
                 <p class="text-gray-600">Description of Product 3</p>
                 <p class="text-gray-800 font-semibold mt-2">$39.99</p>
