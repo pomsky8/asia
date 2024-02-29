@@ -32,9 +32,25 @@
 
         <div class="hidden sm:ml-6 sm:block ">
           <div class="flex space-x-4 ">
-            <a href="#" class="bg-violet-200 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">HOME</a>
-            <a href="#" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" >PRODUCTS</a>
+
+            <a href="welcome.blade.php" class="bg-violet-200 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">HOME</a>
+
+            <div class="dropdown">
+              <button class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                PRODUCTS
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="moneybouqet.blade.php">MONEY BOUQUET</a></li>
+                <li><a class="dropdown-item" href="chocolatebouqet.blade.php">CHOCOLATE BOUQUET</a></li>
+                <li><a class="dropdown-item" href="chocolate.blade.php">CHOCOLATES</a></li>
+                <li><a class="dropdown-item" href="snacks.blade.php">SNACKS</a></li>
+                <li><a class="dropdown-item" href="viands.blade.php">VIANDS</a></li>
+                <li><a class="dropdown-item text-purple-700 rounded-md px-3 py-2 text-sm font-medium" href="product.blade.php">See alll...</a></li>
+              </ul>
+            </div>
+
             <a href="#" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">RESERVATIONS</a>
+
             <a href="about.blade.php" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">ABOUT US</a>
             
             <div class="flex items-end "><i class="fa-solid fa-cart-shopping ml-[500px] text-2xl text-slate-50"></i></div>

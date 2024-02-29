@@ -20,3 +20,27 @@ Route::get('/welcome.blade.php', function () {
 Route::get('/about.blade.php', function () {
     return view('about');
 });
+
+Route::get('/product.blade.php', function () {
+    return view('product');
+});
+
+Route::get('/moneybouqet.blade.php', function () {
+    return view('moneybouqet');
+});
+
+Route::get('/chocolatebouqet.blade.php', function () {
+    return view('chocolatebouqet');
+});
+
+Route::get('/chocolate.blade.php', function () {
+    return view('chocolate');
+});
+
+Route::get('/snacks.blade.php', function () {
+    return view('snacks');
+});
+
+Route::get('/viands.blade.php', function () {
+    return view('viands');
+});
