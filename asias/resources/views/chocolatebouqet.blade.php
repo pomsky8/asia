@@ -77,130 +77,177 @@
         <h1 class="text-2xl font-bold mb-4 text-left text-white">CHOCOLATE BOUQUET</h1>
         
         <!-- Product List -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-14">
 
 
            
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product1.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4">
-                <h2 class="text-lg font-semibold">Product 1</h2>
-                <p class="text-gray-600">Description of Product 1</p>
-                <p class="text-gray-800 font-semibold mt-2">$19.99</p>
+                <img src="/assets/pictures/p9.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">CHOCOLATE BOUQET 1</h2>
+                <p class="text-gray-600">Mix items</p>
+                <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
-                <div class="flex justify-between mt-4">
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">-</button>
-                    <span class="text-gray-800 font-semibold">1</span>
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">+</button>
+                <div class="mt-4 flex items-center">
+                    <button class="px-3 py-1 bg-gray-300 rounded-l-md" onclick="decrementQuantity('quantity')">-</button>
+                    <input id="quantity" type="number" min="1" max="999" value="0" class="w-16 text-center bg-white focus:outline-none">
+                    <button class="px-3 py-1 bg-gray-300 rounded-r-md" onclick="incrementQuantity('quantity')">+</button>
                 </div>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md">Add to Cart</button>
             </div>
             
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product2.jpg" alt="Product 2" class="w-full h-48 object-cover mb-4">
-                <h2 class="text-lg font-semibold">Product 2</h2>
-                <p class="text-gray-600">Description of Product 2</p>
-                <p class="text-gray-800 font-semibold mt-2">$29.99</p>
+                <img src="/assets/pictures/p10.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">CHOCOLATE BOUQET 2</h2>
+                <p class="text-gray-600">Buy 1 Take 1</p>
+                <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
-                <div class="flex justify-between mt-4">
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">-</button>
-                    <span class="text-gray-800 font-semibold">1</span>
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">+</button>
+                <div class="mt-4 flex items-center">
+                    <button class="px-3 py-1 bg-gray-300 rounded-l-md" onclick="decrementQuantity('quantity1')">-</button>
+                    <input id="quantity1" type="number" min="1" max="999" value="0" class="w-16 text-center bg-white focus:outline-none">
+                    <button class="px-3 py-1 bg-gray-300 rounded-r-md" onclick="incrementQuantity('quantity1')">+</button>
                 </div>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md">Add to Cart</button>
             </div>
           
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product3.jpg" alt="Product 3" class="w-full h-48 object-cover mb-4">
-                <h2 class="text-lg font-semibold">Product 3</h2>
-                <p class="text-gray-600">Description of Product 3</p>
-                <p class="text-gray-800 font-semibold mt-2">$39.99</p>
+                <img src="/assets/pictures/p11.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">CHOCOLATE BOUQET 3</h2>
+                <p class="text-gray-600">Mix Mix</p>
+                <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
-                <div class="flex justify-between mt-4">
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">-</button>
-                    <span class="text-gray-800 font-semibold">1</span>
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">+</button>
+                <div class="mt-4 flex items-center">
+                    <button class="px-3 py-1 bg-gray-300 rounded-l-md" onclick="decrementQuantity('quantity2')">-</button>
+                    <input id="quantity2" type="number" min="1" max="999" value="0" class="w-16 text-center bg-white focus:outline-none">
+                    <button class="px-3 py-1 bg-gray-300 rounded-r-md" onclick="incrementQuantity('quantity2')">+</button>
                 </div>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md">Add to Cart</button>
             </div>
        
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product3.jpg" alt="Product 3" class="w-full h-48 object-cover mb-4">
-                <h2 class="text-lg font-semibold">Product 3</h2>
-                <p class="text-gray-600">Description of Product 3</p>
-                <p class="text-gray-800 font-semibold mt-2">$39.99</p>
+                <img src="/assets/pictures/p12.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">CHOCOLATE BOUQET 4</h2>
+                <p class="text-gray-600">Mix mix Buy 1 Take 1</p>
+                <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
                 
-                <div class="flex justify-between mt-4">
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">-</button>
-                    <span class="text-gray-800 font-semibold">1</span>
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">+</button>
+                <div class="mt-4 flex items-center">
+                    <button class="px-3 py-1 bg-gray-300 rounded-l-md" onclick="decrementQuantity('quantity3')">-</button>
+                    <input id="quantity3" type="number" min="1" max="999" value="0" class="w-16 text-center bg-white focus:outline-none">
+                    <button class="px-3 py-1 bg-gray-300 rounded-r-md" onclick="incrementQuantity('quantity3')">+</button>
                 </div>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md">Add to Cart</button>
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product3.jpg" alt="Product 3" class="w-full h-48 object-cover mb-4">
-                <h2 class="text-lg font-semibold">Product 3</h2>
-                <p class="text-gray-600">Description of Product 3</p>
-                <p class="text-gray-800 font-semibold mt-2">$39.99</p>
+                <img src="/assets/pictures/p13.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">CHOCOLATE BOUQET 5</h2>
+                <p class="text-gray-600">Kitkat chocolate bouqet</p>
+                <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
-                <div class="flex justify-between mt-4">
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">-</button>
-                    <span class="text-gray-800 font-semibold">1</span>
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">+</button>
+                <div class="mt-4 flex items-center">
+                    <button class="px-3 py-1 bg-gray-300 rounded-l-md" onclick="decrementQuantity('quantity4')">-</button>
+                    <input id="quantity4" type="number" min="1" max="999" value="0" class="w-16 text-center bg-white focus:outline-none">
+                    <button class="px-3 py-1 bg-gray-300 rounded-r-md" onclick="incrementQuantity('quantity4')">+</button>
                 </div>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md">Add to Cart</button>
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product3.jpg" alt="Product 3" class="w-full h-48 object-cover mb-4">
-                <h2 class="text-lg font-semibold">Product 3</h2>
-                <p class="text-gray-600">Description of Product 3</p>
-                <p class="text-gray-800 font-semibold mt-2">$39.99</p>
+                <img src="/assets/pictures/p14.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">CHOCOLATE BOUQET 6</h2>
+                <p class="text-gray-600">Premium Chocolate Mix</p>
+                <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
-                <div class="flex justify-between mt-4">
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">-</button>
-                    <span class="text-gray-800 font-semibold">1</span>
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">+</button>
+                <div class="mt-4 flex items-center">
+                    <button class="px-3 py-1 bg-gray-300 rounded-l-md" onclick="decrementQuantity('quantity5')">-</button>
+                    <input id="quantity5" type="number" min="1" max="999" value="0" class="w-16 text-center bg-white focus:outline-none">
+                    <button class="px-3 py-1 bg-gray-300 rounded-r-md" onclick="incrementQuantity('quantity5')">+</button>
                 </div>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md">Add to Cart</button>
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product3.jpg" alt="Product 3" class="w-full h-48 object-cover mb-4">
-                <h2 class="text-lg font-semibold">Product 3</h2>
-                <p class="text-gray-600">Description of Product 3</p>
-                <p class="text-gray-800 font-semibold mt-2">$39.99</p>
+                <img src="/assets/pictures/p15.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">CHOCOLATE BOUQET 7</h2>
+                <p class="text-gray-600">Premium 2 Chocolate Mix</p>
+                <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
-                <div class="flex justify-between mt-4">
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">-</button>
-                    <span class="text-gray-800 font-semibold">1</span>
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">+</button>
+                <div class="mt-4 flex items-center">
+                    <button class="px-3 py-1 bg-gray-300 rounded-l-md" onclick="decrementQuantity('quantity6')">-</button>
+                    <input id="quantity6" type="number" min="1" max="999" value="0" class="w-16 text-center bg-white focus:outline-none">
+                    <button class="px-3 py-1 bg-gray-300 rounded-r-md" onclick="incrementQuantity('quantity6')">+</button>
                 </div>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md">Add to Cart</button>
             </div>
+
 
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product3.jpg" alt="Product 3" class="w-full h-48 object-cover mb-4">
-                <h2 class="text-lg font-semibold">Product 3</h2>
-                <p class="text-gray-600">Description of Product 3</p>
-                <p class="text-gray-800 font-semibold mt-2">$39.99</p>
+                <img src="/assets/pictures/p16.jpg" alt="P8" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">CHOCOLATE BOUQET 8</h2>
+                <Bear class="text-gray-600">Bear and Bouqet</p>
+                <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
-                <div class="flex justify-between mt-4">
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">-</button>
-                    <span class="text-gray-800 font-semibold">1</span>
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">+</button>
+                <div class="mt-4 flex items-center self-end">
+                    <button class="px-3 py-1 bg-gray-300 rounded-l-md " onclick="decrementQuantity('quantity7')">-</button>
+                    <input id="quantity7" type="number" min="1" max="999" value="0" class="w-16 text-center bg-white focus:outline-none">
+                    <button class="px-3 py-1 bg-gray-300 rounded-r-md" onclick="incrementQuantity('quantity7')">+</button>
                 </div>
+                    <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md">Add to Cart</button>
             </div>
-
-
+            
         </div>
     </div>
 
 
+<!-----------------------------------plus minus order js---------------------------------->
+
+    <script>
+        function incrementQuantity(id) {
+            const quantityInput = document.getElementById(id);
+            let quantity = parseInt(quantityInput.value);
+            quantity++;
+            quantityInput.value = quantity;
+        }
+
+        function decrementQuantity(id) {
+            const quantityInput = document.getElementById(id);
+            let quantity = parseInt(quantityInput.value);
+            if (quantity > 1) {
+                quantity--;
+                quantityInput.value = quantity;
+            }
+        }
+    </script>
+
+
+
+
+
+<!----------------------------------------zoom js--------------------------------------->
+
+    <style>
+        .zoom {
+            transition: transform 0.3s ease;
+            transform-origin: center center;
+        }
+
+        .zoom:hover {
+            transform: scale(3.2);
+        }
+    </style>
+
+
+<script>
+        function zoomImage(image) {
+            image.classList.toggle('zoom');
+        }
+    </script>
 
 
 
 
 
 
-
-
-
-
-
+<!-------------------------------back to top js----------------------------->
 
 <style>
         .back-to-top {
@@ -213,13 +260,14 @@
             display: none;
             transition: opacity 0.2s;
             z-index: 999;
+
         }
 
 
     </style>
 
 
-    <button onclick="scrollToTop()" class="back-to-top text-2xl" id="back-to-top-btn"><i class="fa-solid fa-up-long"></i></button>
+    <button onclick="scrollToTop()" class="back-to-top text-2xl " id="back-to-top-btn"><i class="fa-solid fa-up-long "></i></button>
 
     <script>
         window.onscroll = function() {scrollFunction()};

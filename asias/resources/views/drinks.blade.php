@@ -77,114 +77,50 @@
         <h1 class="text-2xl font-bold mb-4 text-left text-white">DRINKS</h1>
         
         <!-- Product List -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-14">
 
 
-           
-            <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product1.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4">
-                <h2 class="text-lg font-semibold">Product 1</h2>
-                <p class="text-gray-600">Description of Product 1</p>
-                <p class="text-gray-800 font-semibold mt-2">$19.99</p>
+        <div class="bg-white rounded-lg shadow-md p-4">
+                <img src="/assets/pictures/t1.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">CAFE PURO</h2>
+                <p class="text-gray-600">Pure Instant Coffee</p>
+                <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
-                <div class="flex justify-between mt-4">
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">-</button>
-                    <span class="text-gray-800 font-semibold">1</span>
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">+</button>
+                <div class="mt-4 flex items-center">
+                    <button class="px-3 py-1 bg-gray-300 rounded-l-md" onclick="decrementQuantity('quantity')">-</button>
+                    <input id="quantity" type="number" min="1" max="999" value="0" class="w-16 text-center bg-white focus:outline-none">
+                    <button class="px-3 py-1 bg-gray-300 rounded-r-md" onclick="incrementQuantity('quantity')">+</button>
                 </div>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md">Add to Cart</button>
             </div>
             
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product2.jpg" alt="Product 2" class="w-full h-48 object-cover mb-4">
-                <h2 class="text-lg font-semibold">Product 2</h2>
-                <p class="text-gray-600">Description of Product 2</p>
-                <p class="text-gray-800 font-semibold mt-2">$29.99</p>
+                <img src="/assets/pictures/t2.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">NESTLE COFFEE MATE</h2>
+                <p class="text-gray-600">COFFEE MATE</p>
+                <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
-                <div class="flex justify-between mt-4">
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">-</button>
-                    <span class="text-gray-800 font-semibold">1</span>
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">+</button>
+                <div class="mt-4 flex items-center">
+                    <button class="px-3 py-1 bg-gray-300 rounded-l-md" onclick="decrementQuantity('quantity1')">-</button>
+                    <input id="quantity1" type="number" min="1" max="999" value="0" class="w-16 text-center bg-white focus:outline-none">
+                    <button class="px-3 py-1 bg-gray-300 rounded-r-md" onclick="incrementQuantity('quantity1')">+</button>
                 </div>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md">Add to Cart</button>
             </div>
           
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product3.jpg" alt="Product 3" class="w-full h-48 object-cover mb-4">
-                <h2 class="text-lg font-semibold">Product 3</h2>
-                <p class="text-gray-600">Description of Product 3</p>
-                <p class="text-gray-800 font-semibold mt-2">$39.99</p>
+                <img src="/assets/pictures/t3.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">MAGNOLIA FRESH MILK</h2>
+                <p class="text-gray-600">1 Litter</p>
+                <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
-                <div class="flex justify-between mt-4">
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">-</button>
-                    <span class="text-gray-800 font-semibold">1</span>
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">+</button>
+                <div class="mt-4 flex items-center">
+                    <button class="px-3 py-1 bg-gray-300 rounded-l-md" onclick="decrementQuantity('quantity2')">-</button>
+                    <input id="quantity2" type="number" min="1" max="999" value="0" class="w-16 text-center bg-white focus:outline-none">
+                    <button class="px-3 py-1 bg-gray-300 rounded-r-md" onclick="incrementQuantity('quantity2')">+</button>
                 </div>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md">Add to Cart</button>
             </div>
-       
-            <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product3.jpg" alt="Product 3" class="w-full h-48 object-cover mb-4">
-                <h2 class="text-lg font-semibold">Product 3</h2>
-                <p class="text-gray-600">Description of Product 3</p>
-                <p class="text-gray-800 font-semibold mt-2">$39.99</p>
-                
-                <div class="flex justify-between mt-4">
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">-</button>
-                    <span class="text-gray-800 font-semibold">1</span>
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">+</button>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product3.jpg" alt="Product 3" class="w-full h-48 object-cover mb-4">
-                <h2 class="text-lg font-semibold">Product 3</h2>
-                <p class="text-gray-600">Description of Product 3</p>
-                <p class="text-gray-800 font-semibold mt-2">$39.99</p>
-
-                <div class="flex justify-between mt-4">
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">-</button>
-                    <span class="text-gray-800 font-semibold">1</span>
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">+</button>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product3.jpg" alt="Product 3" class="w-full h-48 object-cover mb-4">
-                <h2 class="text-lg font-semibold">Product 3</h2>
-                <p class="text-gray-600">Description of Product 3</p>
-                <p class="text-gray-800 font-semibold mt-2">$39.99</p>
-
-                <div class="flex justify-between mt-4">
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">-</button>
-                    <span class="text-gray-800 font-semibold">1</span>
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">+</button>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product3.jpg" alt="Product 3" class="w-full h-48 object-cover mb-4">
-                <h2 class="text-lg font-semibold">Product 3</h2>
-                <p class="text-gray-600">Description of Product 3</p>
-                <p class="text-gray-800 font-semibold mt-2">$39.99</p>
-
-                <div class="flex justify-between mt-4">
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">-</button>
-                    <span class="text-gray-800 font-semibold">1</span>
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">+</button>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="product3.jpg" alt="Product 3" class="w-full h-48 object-cover mb-4">
-                <h2 class="text-lg font-semibold">Product 3</h2>
-                <p class="text-gray-600">Description of Product 3</p>
-                <p class="text-gray-800 font-semibold mt-2">$39.99</p>
-
-                <div class="flex justify-between mt-4">
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">-</button>
-                    <span class="text-gray-800 font-semibold">1</span>
-                    <button class="px-4 py-2 bg-indigo-500 text-white rounded-md">+</button>
-                </div>
-            </div>
-
 
         </div>
     </div>
@@ -194,13 +130,51 @@
 
 
 
+    
+
+<!-----------------------------------plus minus order js---------------------------------->
+
+<script>
+        function incrementQuantity(id) {
+            const quantityInput = document.getElementById(id);
+            let quantity = parseInt(quantityInput.value);
+            quantity++;
+            quantityInput.value = quantity;
+        }
+
+        function decrementQuantity(id) {
+            const quantityInput = document.getElementById(id);
+            let quantity = parseInt(quantityInput.value);
+            if (quantity > 1) {
+                quantity--;
+                quantityInput.value = quantity;
+            }
+        }
+    </script>
 
 
+<!----------------------------------------zoom js--------------------------------------->
+
+    <style>
+        .zoom {
+            transition: transform 0.3s ease;
+            transform-origin: center center;
+        }
+
+        .zoom:hover {
+            transform: scale(3.2);
+        }
+    </style>
 
 
+<script>
+        function zoomImage(image) {
+            image.classList.toggle('zoom');
+        }
+    </script>
 
 
-
+<!-------------------------------back to top js----------------------------->
 
 <style>
         .back-to-top {
@@ -213,13 +187,14 @@
             display: none;
             transition: opacity 0.2s;
             z-index: 999;
+
         }
 
 
     </style>
 
 
-    <button onclick="scrollToTop()" class="back-to-top text-2xl" id="back-to-top-btn"><i class="fa-solid fa-up-long"></i></button>
+    <button onclick="scrollToTop()" class="back-to-top text-2xl " id="back-to-top-btn"><i class="fa-solid fa-up-long "></i></button>
 
     <script>
         window.onscroll = function() {scrollFunction()};
@@ -238,6 +213,7 @@
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
     </script>
+
 
 
 

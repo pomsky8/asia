@@ -178,19 +178,6 @@
     </script>
 
 
-<footer class="bg-indigo-500 py-6 mb-4">
-    <div class="container ">
-      <div class="flex flex-col md:flex-row md:justify-between">
-        <div class="text-white mb-4 md:mb-0" ><a href="welcome.blade.php">ASIA'S CHOCOLATE & SNACKS </a></div>
-        <div class="flex">
-          <a href="about.blade.php" class="text-slate-50 hover:text-violet-900 mr-4">About</a>
-          <a href="about.blade.php" class="text-slate-50 hover:text-violet-900 mr-4">Contact</a>
-        </div>
-        
-      </div>
-    </div>
-  </footer>
-
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
