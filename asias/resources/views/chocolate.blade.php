@@ -26,36 +26,36 @@
       </div>
 
       <div class="flex flex-5 items-center justify-center sm:items-stretch sm:justify-center">
-      <div class="flex flex-shrink-0 items-center">
-          <img class="h-8 w-auto justify-start" src="/assets/pictures/logo.png" ><p class="text-purple-700"><a href="welcome.html">ASIA'S CHOCOLATE & SNACKS </a></p>
+        <div class="flex flex-shrink-0 items-center">
+          <img class="h-8 w-auto justify-start" src="/assets/pictures/logo.png" ><p class="text-purple-700"><a href="welcome.blade.php">ASIA'S CHOCOLATE & SNACKS </a></p>
         </div>
 
         <div class="hidden sm:ml-6 sm:block ">
           <div class="flex space-x-4 ">
             
-            <a href="welcome.html" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">HOME</a>
+            <a href="welcome.blade.php" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">HOME</a>
 
             <div class="dropdown">
               <button class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium bg-violet-200 text-white rounded-md px-3 py-2 text-sm font-medium" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 PRODUCTS
               </button>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="moneybouqet.html">MONEY BOUQUET</a></li>
-                <li><a class="dropdown-item" href="chocolatebouqet.html">CHOCOLATE BOUQUET</a></li>
-                <li><a class="dropdown-item" href="chocolate.html">CHOCOLATES</a></li>
-                <li><a class="dropdown-item" href="snacks.html">SNACKS</a></li>
-                <li><a class="dropdown-item" href="viands.html">VIANDS</a></li>
-                <li><a class="dropdown-item" href="drinks.html">DRINKS</a></li>
-                <li><a class="dropdown-item" href="alcohol.html">ALCOHOL</a></li>
-                <li><a class="dropdown-item text-purple-700 rounded-md px-3 py-2 text-sm font-medium" href="product.html">See all...</a></li>
+                <li><a class="dropdown-item" href="moneybouqet.blade.php">MONEY BOUQUET</a></li>
+                <li><a class="dropdown-item" href="chocolatebouqet.blade.php">CHOCOLATE BOUQUET</a></li>
+                <li><a class="dropdown-item" href="chocolate.blade.php">CHOCOLATES</a></li>
+                <li><a class="dropdown-item" href="snacks.blade.php">SNACKS</a></li>
+                <li><a class="dropdown-item" href="viands.blade.php">VIANDS</a></li>
+                <li><a class="dropdown-item" href="drinks.blade.php">DRINKS</a></li>
+                <li><a class="dropdown-item" href="alcohol.blade.php">ALCOHOL</a></li>
+                <li><a class="dropdown-item text-purple-700 rounded-md px-3 py-2 text-sm font-medium" href="product.blade.php">See all...</a></li>
               </ul>
             </div>
 
 
 
-            <a href="reviews.html" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">REVIEWS</a>
+            <a href="reviews.blade.php" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">REVIEWS</a>
 
-            <a href="about.html" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">ABOUT US</a>
+            <a href="about.blade.php" class="text-purple-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">ABOUT US</a>
             
             <div class="flex items-end "><i class="fa-solid fa-cart-shopping ml-[500px] text-2xl text-slate-50"></i></div>
           </div>
@@ -74,7 +74,7 @@
 <body class="bg-indigo-300">
 
 <div class="max-w-5xl mx-auto mt-10">
-        <h1 class="text-2xl font-bold mb-4 text-left text-white">SNACKS</h1>
+        <h1 class="text-2xl font-bold mb-4 text-left text-white">CHOCOLATES</h1>
         
         <!-- Product List -->
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-14">
@@ -82,9 +82,9 @@
 
            
         <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="/assets/pictures/e1.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
-                <h2 class="text-lg font-semibold">CHEESY PUFF</h2>
-                <p class="text-gray-600">Cheese Flavor</p>
+                <img src="/assets/pictures/w1.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">HAPPY DREAMS CHOCKNACKS</h2>
+                <p class="text-gray-600">Sandwich Chocolate</p>
                 <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
                 <div class="mt-4 flex items-center">
@@ -96,9 +96,9 @@
             </div>
             
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="/assets/pictures/e2.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
-                <h2 class="text-lg font-semibold">CHEESE RINGS</h2>
-                <p class="text-gray-600">Cheese Flavored Snacks</p>
+                <img src="/assets/pictures/w2.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">CREAM BURST</h2>
+                <p class="text-gray-600">28 PCS Cream Burst</p>
                 <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
                 <div class="mt-4 flex items-center">
@@ -110,9 +110,9 @@
             </div>
           
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="/assets/pictures/e3.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
-                <h2 class="text-lg font-semibold">SNACKERS JUNIOR</h2>
-                <p class="text-gray-600">Nachos</p>
+                <img src="/assets/pictures/w3.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">Boricho</h2>
+                <p class="text-gray-600">Strawberry Flavor</p>
                 <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
                 <div class="mt-4 flex items-center">
@@ -124,9 +124,9 @@
             </div>
        
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="/assets/pictures/e4.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
-                <h2 class="text-lg font-semibold">CHIPCHARON</h2>
-                <p class="text-gray-600">Snackers Junior Chicharon</p>
+                <img src="/assets/pictures/w4.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">Boricho</h2>
+                <p class="text-gray-600">Chocolate Flavor</p>
                 <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
                 
                 <div class="mt-4 flex items-center">
@@ -138,9 +138,9 @@
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="/assets/pictures/e5.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
-                <h2 class="text-lg font-semibold">LAYS</h2>
-                <p class="text-gray-600">Cream & Onion Flavor</p>
+                <img src="/assets/pictures/w5.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">KUKIS KILAPA</h2>
+                <p class="text-gray-600">Vanila Flavor</p>
                 <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
                 <div class="mt-4 flex items-center">
@@ -152,9 +152,9 @@
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="/assets/pictures/e6.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
-                <h2 class="text-lg font-semibold">LAYS</h2>
-                <p class="text-gray-600">Classic Flavor</p>
+                <img src="/assets/pictures/w6.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">KUKIS KILAPA</h2>
+                <p class="text-gray-600">Chocolate Flavor</p>
                 <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
                 <div class="mt-4 flex items-center">
@@ -166,9 +166,9 @@
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="/assets/pictures/e7.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
-                <h2 class="text-lg font-semibold">LAYS</h2>
-                <p class="text-gray-600">Extra Cheese</p>
+                <img src="/assets/pictures/w7.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">CHOCOLITOS</h2>
+                <p class="text-gray-600">Chocolate Crunch</p>
                 <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
                 <div class="mt-4 flex items-center">
@@ -181,9 +181,9 @@
 
 
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="/assets/pictures/e8.jpg" alt="P8" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
-                <h2 class="text-lg font-semibold">PIK-NIK</h2>
-                <Bear class="text-gray-600">Shoestring Potatoes</p>
+                <img src="/assets/pictures/w8.jpg" alt="P8" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">HERSHEYS</h2>
+                <Bear class="text-gray-600">Cookies & Cream</p>
                 <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
                 <div class="mt-4 flex items-center self-end">
@@ -195,9 +195,9 @@
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="/assets/pictures/e9.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
-                <h2 class="text-lg font-semibold">PRINGLES</h2>
-                <p class="text-gray-600">Sour Cream & Onion</p>
+                <img src="/assets/pictures/w9.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">DAIRY MILK</h2>
+                <p class="text-gray-600">Fruits & Nuts</p>
                 <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
                 <div class="mt-4 flex items-center">
@@ -209,9 +209,9 @@
             </div>
             
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="/assets/pictures/e10.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
-                <h2 class="text-lg font-semibold">PIK-NIK</h2>
-                <p class="text-gray-600">Thick Cut Potatoes</p>
+                <img src="/assets/pictures/w10.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">DAIRY MILK x6</h2>
+                <p class="text-gray-600">Classic Flavor</p>
                 <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
                 <div class="mt-4 flex items-center">
@@ -223,9 +223,9 @@
             </div>
           
             <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="/assets/pictures/e11.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
-                <h2 class="text-lg font-semibold">PEPPERO</h2>
-                <p class="text-gray-600">Strawberry Flavor</p>
+                <img src="/assets/pictures/w11.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">NESTLE CRUNCH</h2>
+                <p class="text-gray-600">Buy 1 Take 2</p>
                 <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
                 <div class="mt-4 flex items-center">
@@ -235,23 +235,85 @@
                 </div>
                 <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md">Add to Cart</button>
             </div>
-</div>
-</div>
+       
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <img src="/assets/pictures/w12.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">KITKAT</h2>
+                <p class="text-gray-600">Kitkat x3 Buy 1 Take 1</p>
+                <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
+                
+                <div class="mt-4 flex items-center">
+                    <button class="px-3 py-1 bg-gray-300 rounded-l-md" onclick="decrementQuantity('quantity11')">-</button>
+                    <input id="quantity11" type="number" min="1" max="999" value="0" class="w-16 text-center bg-white focus:outline-none">
+                    <button class="px-3 py-1 bg-gray-300 rounded-r-md" onclick="incrementQuantity('quantity11')">+</button>
+                </div>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md">Add to Cart</button>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <img src="/assets/pictures/w13.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">HERSHEYS</h2>
+                <p class="text-gray-600">Creamy Milk Chocolate</p>
+                <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
+
+                <div class="mt-4 flex items-center">
+                    <button class="px-3 py-1 bg-gray-300 rounded-l-md" onclick="decrementQuantity('quantity12')">-</button>
+                    <input id="quantity12" type="number" min="1" max="999" value="0" class="w-16 text-center bg-white focus:outline-none">
+                    <button class="px-3 py-1 bg-gray-300 rounded-r-md" onclick="incrementQuantity('quantity12')">+</button>
+                </div>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md">Add to Cart</button>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <img src="/assets/pictures/w14.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">KITKAT MINI</h2>
+                <p class="text-gray-600">12 PIECES INSIDE</p>
+                <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
+
+                <div class="mt-4 flex items-center">
+                    <button class="px-3 py-1 bg-gray-300 rounded-l-md" onclick="decrementQuantity('quantity13')">-</button>
+                    <input id="quantity13" type="number" min="1" max="999" value="0" class="w-16 text-center bg-white focus:outline-none">
+                    <button class="px-3 py-1 bg-gray-300 rounded-r-md" onclick="incrementQuantity('quantity13')">+</button>
+                </div>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md">Add to Cart</button>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <img src="/assets/pictures/w15.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">POBEDA MILK</h2>
+                <p class="text-gray-600">Buy 1 Take 1</p>
+                <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
+
+                <div class="mt-4 flex items-center">
+                    <button class="px-3 py-1 bg-gray-300 rounded-l-md" onclick="decrementQuantity('quantity14')">-</button>
+                    <input id="quantity14" type="number" min="1" max="999" value="0" class="w-16 text-center bg-white focus:outline-none">
+                    <button class="px-3 py-1 bg-gray-300 rounded-r-md" onclick="incrementQuantity('quantity14')">+</button>
+                </div>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md">Add to Cart</button>
+            </div>
 
 
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <img src="/assets/pictures/w16.jpg" alt="P8" class="w-full h-48 object-cover mb-4 rounded-lg" onclick="zoomImage(this)">
+                <h2 class="text-lg font-semibold">FERRERO SET</h2>
+                <Bear class="text-gray-600">With Notes</p>
+                <p class="text-gray-800 font-semibold mt-2">₱00.00</p>
 
-
-
-
-
-
-
-
+                <div class="mt-4 flex items-center self-end">
+                    <button class="px-3 py-1 bg-gray-300 rounded-l-md " onclick="decrementQuantity('quantity15')">-</button>
+                    <input id="quantity15" type="number" min="1" max="999" value="0" class="w-16 text-center bg-white focus:outline-none">
+                    <button class="px-3 py-1 bg-gray-300 rounded-r-md" onclick="incrementQuantity('quantity15')">+</button>
+                </div>
+                    <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md">Add to Cart</button>
+            </div>
+            
+        </div>
+    </div>
 
 
 <!-----------------------------------plus minus order js---------------------------------->
 
-<script>
+    <script>
         function incrementQuantity(id) {
             const quantityInput = document.getElementById(id);
             let quantity = parseInt(quantityInput.value);
@@ -268,6 +330,9 @@
             }
         }
     </script>
+
+
+
 
 
 <!----------------------------------------zoom js--------------------------------------->
@@ -289,6 +354,10 @@
             image.classList.toggle('zoom');
         }
     </script>
+
+
+
+
 
 
 <!-------------------------------back to top js----------------------------->
@@ -330,6 +399,8 @@
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
     </script>
+
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

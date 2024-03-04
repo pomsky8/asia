@@ -13,46 +13,46 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/welcome.html', function () {
+Route::get('/welcome.blade.php', function () {
     return view('welcome');
 });
 
-Route::get('/about.html', function () {
+Route::get('/about.blade.php', function () {
     return view('about');
 });
 
-Route::get('/product.html', function () {
+Route::get('/product.blade.php', function () {
     return view('product');
 });
 
-Route::get('/moneybouqet.html', function () {
+Route::get('/moneybouqet.blade.php', function () {
     return view('moneybouqet');
 });
 
-Route::get('/chocolatebouqet.html', function () {
+Route::get('/chocolatebouqet.blade.php', function () {
     return view('chocolatebouqet');
 });
 
-Route::get('/chocolate.html', function () {
+Route::get('/chocolate.blade.php', function () {
     return view('chocolate');
 });
 
-Route::get('/snacks.html', function () {
+Route::get('/snacks.blade.php', function () {
     return view('snacks');
 });
 
-Route::get('/viands.html', function () {
+Route::get('/viands.blade.php', function () {
     return view('viands');
 });
 
-Route::get('/drinks.html', function () {
+Route::get('/drinks.blade.php', function () {
     return view('drinks');
 });
 
-Route::get('/alcohol.html', function () {
+Route::get('/alcohol.blade.php', function () {
     return view('alcohol');
 });
 
-Route::get('/reviews.html', function () {
+Route::get('/reviews.blade.php', function () {
     return view('reviews');
 });
